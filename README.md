@@ -1,25 +1,9 @@
 # Backend
 
-To run backend part of the project go to *backend* folder and create **docker-compose.yml** with this content:
+To run backend part of the project go to *backend* folder run:
 ```
-redis:
-  image: redis
-  ports:
-    - "6379:6379"
-stream:
-  image: segment/fake-event-stream
-  environment:
-    - REDIS_HOST=redis
-    - REDIS_PORT=6379
-    - REDIS_CHANNEL=events
-    - EVENTS_PER_SECOND=10
-  links:
-    - redis
-
-```
-After that run:
-```
-npm
+docker-compose up
+npm i
 npm start
 ```
 To run tests:
@@ -42,3 +26,6 @@ To run tests:
 ```
 yarn test
 ```
+
+### Note
+You can use **yarn** or **npm** whatever suits you better
