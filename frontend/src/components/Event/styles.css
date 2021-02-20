@@ -1,0 +1,31 @@
+.event__box {
+    display: flex;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.event__info {
+    display: flex;
+    align-items: center;
+}
+
+.event__type-paragraph {
+    text-transform: uppercase;
+    color: darkgray;
+    font-weight: bold;
+    text-align: start;
+    width: 80px;
+    margin: 0px 40px;
+}
+
+.event__text-paragraph {
+    color: midnightblue;
+}
+
+.event__date-paragraph {
+    color: darkgray;
+    margin-right: 40px;
+}

@@ -1,0 +1,27 @@
+.form__header-box {
+    background-color: rgba(246,246,255,0.85);
+    display: flex;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.form__button-box {
+    display: flex;
+    align-items: center;
+}
+
+.form__button {
+    max-height: 36px;
+}
+
+.form__text-field {
+    background-color: white;
+}
+
+.form__body-box {
+    height: 90vh;
+}
